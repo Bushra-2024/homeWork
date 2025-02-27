@@ -150,11 +150,11 @@ const App = () => {
     }
   };
   return (
-    <div className="bg-gray-300 dark:bg-black py-10">
-      <h1 className="font-bold text-3xl text-gray-900 dark:text-white mb-12 ml-46">
+    <div className=" bg-white dark:bg-black py-10 ">
+      <h1 className="font-bold text-3xl text-gray-900 dark:text-white m-auto text-center">
         Homework
       </h1>
-      <div className="flex justify-start gap-5 ml-50 mb-2">
+      <div className="flex justify-center gap-5 m-auto text-center my-10">
         <button
           className="bg-green-700 text-white p-2 rounded-md font-bold"
           onClick={handleClick}
