@@ -171,7 +171,7 @@ const App = () => {
         {data.map((el) => (
           <div
             key={el.id}
-            className="w-[300px] rounded-2xl shadow-lg hover:shadow-2xl transition-all bg-green-100 dark:bg-[#3a3434e0] mb-8">
+            className="w-[300px] rounded-2xl shadow-lg hover:shadow-2xl transition-all bg-white-100 dark:bg-[#3a3434e0] mb-8">
             <div className="p-6 flex flex-col items-start">
               <h2 className="font-bold text-xl text-gray-900 dark:text-amber-50">
                 {el.name.length > 25 ? el.name.slice(0, 25) + "..." : el.name}
