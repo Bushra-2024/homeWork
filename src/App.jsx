@@ -186,10 +186,7 @@ const App = () => {
                 ${el.isCompleted ? "bg-green-900" : "bg-red-700"}`}>
                 {el.isCompleted ? "Active" : "Inactive"}
               </button>
-              <button
-                className="text-white px-2 py-1 rounded text-[12px] ml-auto" >
-                Add pic
-              </button>
+             
               <div className="relative mt-4">
                 <div className="flex flex-wrap justify-center">
                   <div className={`flex flex-wrap gap-2`}>
@@ -197,7 +194,7 @@ const App = () => {
                       <div
                         key={img.id}
                         className={`relative p-0.5 ${el.images.length > 1 ? 'w-[122px]' : 'w-full'}`}>
-                        <img className="w-full h-[250px] object-cover rounded-lg"
+                        <img className="w-full h-[200px] object-cover rounded-lg"
                           src={`https://to-dos-api.softclub.tj/images/${img.imageName}`}/>
                         <button
                           className="absolute top-2 right-2 p-1"
